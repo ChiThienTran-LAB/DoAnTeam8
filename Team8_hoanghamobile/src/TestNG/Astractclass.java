@@ -29,6 +29,8 @@ public class Astractclass {
 			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 			driver.get(baseUrl);
 			driver.manage().window().maximize();
+			WebElement qc = driver.findElement(By.xpath("//a[@href=\"#close-modal\"]"));
+			qc.click();
 			WebElement dn = driver.findElement(By.xpath("//a[text()='Đăng nhập']"));
 			dn.click();
 		}

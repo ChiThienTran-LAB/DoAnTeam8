@@ -34,7 +34,7 @@ public class LG_test extends Astractclass {
 		close.click();
 	}
 	@Test (priority = 4)
-	public static void LG_02() //LG02 là login true
+	public static void LG_02() //LG02 là login true, chạy chót
 	{
 		String UserName = "TranChiThien";
 		String Password = "0964253892";
