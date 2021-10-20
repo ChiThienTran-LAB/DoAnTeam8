@@ -2,10 +2,14 @@ package TestNG;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -16,7 +20,7 @@ public class Astractclass {
 		public String webdriver = "webdriver.chrome.driver";
 		public static WebDriver driver;
 		
-		@BeforeTest
+		@BeforeMethod
 		public void beforeTest() {
 			System.setProperty(webdriver,driverPath);
 			ChromeOptions options = new ChromeOptions();
@@ -25,10 +29,12 @@ public class Astractclass {
 			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 			driver.get(baseUrl);
 			driver.manage().window().maximize();
+			WebElement dn = driver.findElement(By.xpath("//a[text()='Đăng nhập']"));
+			dn.click();
 		}
 		
-		@AfterTest
+		@AfterMethod
 		public void afterTest() {
-			//driver.close();
+			driver.close();
 		}
 }

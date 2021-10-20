@@ -5,8 +5,9 @@
     <classes>
       <class name="TestNG.LG_test">
         <methods>
+          <include name="LG_04"/>
           <include name="afterTest"/>
-          <include name="close_noti"/>
+          <include name="LG_02"/>
           <include name="beforeTest"/>
         </methods>
       </class> <!-- TestNG.LG_test -->
