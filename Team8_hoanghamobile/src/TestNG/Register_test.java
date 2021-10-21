@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 public class Register_test extends Astractclass {
-	@Test (groups = "Register")
+	@Test (groups = "Register", priority = 5)
 	public static void RG02() {
 		WebElement cl_regis = driver.findElement(By.xpath("//div[@class=\"button-group\"]/a[text()=\"ĐĂNG KÝ\"]"));
 		cl_regis.click();
@@ -35,7 +35,7 @@ public class Register_test extends Astractclass {
 		System.out.println("Xong TC");
 		
 	}
-	@Test (groups = "Register")
+	@Test (groups = "Register", priority = 6)
 	public static void RG01() {
 		WebElement cl_regis = driver.findElement(By.xpath("//div[@class=\"button-group\"]/a[text()=\"ĐĂNG KÝ\"]"));
 		cl_regis.click();
@@ -50,7 +50,7 @@ public class Register_test extends Astractclass {
 		System.out.println("Xong TC"+"Lỗi ghi nhận: "+error.getText());
 		
 	}
-	@Test (groups = "Register")
+	@Test (groups = "Register", priority = 7)
 	public static void RG03() {
 		WebElement cl_regis = driver.findElement(By.xpath("//div[@class=\"button-group\"]/a[text()=\"ĐĂNG KÝ\"]"));
 		cl_regis.click();
