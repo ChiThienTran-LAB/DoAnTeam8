@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class LG_test extends Astractclass {
+public class Login_test extends Astractclass {
 	@Test (priority = 1)
 	public static void LG_01() //LG01 là login fail
 	{
