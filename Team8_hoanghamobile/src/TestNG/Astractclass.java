@@ -20,8 +20,8 @@ public class Astractclass {
 		public String webdriver = "webdriver.chrome.driver";
 		public static WebDriver driver;
 		
-		@BeforeMethod
-		public void beforeTest() {
+		@BeforeTest
+		public void before() {
 			System.setProperty(webdriver,driverPath);
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--disable-notifications");
@@ -35,7 +35,7 @@ public class Astractclass {
 			dn.click();
 		}
 		
-		@AfterMethod
+		@AfterTest
 		public void afterTest() {
 			driver.close();
 		}

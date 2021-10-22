@@ -1,61 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-20T14:10:55 ICT" name="Default suite" finished-at="2021-10-20T14:12:31 ICT" duration-ms="95773">
+  <suite started-at="2021-10-22T09:07:37 ICT" name="Default suite" finished-at="2021-10-22T09:07:44 ICT" duration-ms="7578">
     <groups>
     </groups>
-    <test started-at="2021-10-20T14:10:55 ICT" name="Default test" finished-at="2021-10-20T14:12:31 ICT" duration-ms="95773">
-      <class name="TestNG.LG_test">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNG.LG_test@d4342c2]" started-at="2021-10-20T14:10:55 ICT" name="beforeTest" finished-at="2021-10-20T14:11:04 ICT" duration-ms="9362" status="PASS">
+    <test started-at="2021-10-22T09:07:37 ICT" name="Default test" finished-at="2021-10-22T09:07:44 ICT" duration-ms="7578">
+      <class name="TestNG.FogetPassWord">
+        <test-method is-config="true" signature="before()[pri:0, instance:TestNG.FogetPassWord@4b14c583]" started-at="2021-10-22T09:07:37 ICT" name="before" finished-at="2021-10-22T09:07:42 ICT" duration-ms="4935" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="LG_01()[pri:1, instance:TestNG.LG_test@d4342c2]" started-at="2021-10-20T14:11:04 ICT" name="LG_01" finished-at="2021-10-20T14:11:05 ICT" duration-ms="1071" status="PASS">
+        </test-method> <!-- before -->
+        <test-method signature="FP_01()[pri:8, instance:TestNG.FogetPassWord@4b14c583]" started-at="2021-10-22T09:07:42 ICT" name="FP_01" finished-at="2021-10-22T09:07:44 ICT" duration-ms="2116" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LG_01 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG.LG_test@d4342c2]" started-at="2021-10-20T14:11:05 ICT" name="afterTest" finished-at="2021-10-20T14:11:09 ICT" duration-ms="4137" status="PASS">
+        </test-method> <!-- FP_01 -->
+        <test-method signature="FP_02()[pri:9, instance:TestNG.FogetPassWord@4b14c583]" started-at="2021-10-22T09:07:44 ICT" name="FP_02" finished-at="2021-10-22T09:07:44 ICT" duration-ms="318" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNG.LG_test@d4342c2]" started-at="2021-10-20T14:11:09 ICT" name="beforeTest" finished-at="2021-10-20T14:11:17 ICT" duration-ms="7607" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="LG_03()[pri:2, instance:TestNG.LG_test@d4342c2]" started-at="2021-10-20T14:11:17 ICT" name="LG_03" finished-at="2021-10-20T14:11:18 ICT" duration-ms="906" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LG_03 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG.LG_test@d4342c2]" started-at="2021-10-20T14:11:18 ICT" name="afterTest" finished-at="2021-10-20T14:11:18 ICT" duration-ms="139" status="PASS">
+        </test-method> <!-- FP_02 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG.FogetPassWord@4b14c583]" started-at="2021-10-22T09:07:44 ICT" name="afterTest" finished-at="2021-10-22T09:07:44 ICT" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNG.LG_test@d4342c2]" started-at="2021-10-20T14:11:18 ICT" name="beforeTest" finished-at="2021-10-20T14:12:15 ICT" duration-ms="56955" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="LG_04()[pri:3, instance:TestNG.LG_test@d4342c2]" started-at="2021-10-20T14:12:15 ICT" name="LG_04" finished-at="2021-10-20T14:12:16 ICT" duration-ms="1032" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LG_04 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG.LG_test@d4342c2]" started-at="2021-10-20T14:12:16 ICT" name="afterTest" finished-at="2021-10-20T14:12:20 ICT" duration-ms="4144" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNG.LG_test@d4342c2]" started-at="2021-10-20T14:12:20 ICT" name="beforeTest" finished-at="2021-10-20T14:12:29 ICT" duration-ms="8426" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="LG_02()[pri:4, instance:TestNG.LG_test@d4342c2]" started-at="2021-10-20T14:12:29 ICT" name="LG_02" finished-at="2021-10-20T14:12:30 ICT" duration-ms="1809" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LG_02 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG.LG_test@d4342c2]" started-at="2021-10-20T14:12:30 ICT" name="afterTest" finished-at="2021-10-20T14:12:31 ICT" duration-ms="144" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- TestNG.LG_test -->
+      </class> <!-- TestNG.FogetPassWord -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

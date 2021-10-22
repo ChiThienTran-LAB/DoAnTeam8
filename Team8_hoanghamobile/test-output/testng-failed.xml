@@ -3,16 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.LG_test">
+      <class name="TestNG.FogetPassWord">
         <methods>
-          <include name="LG_04"/>
           <include name="afterTest"/>
-          <include name="LG_03"/>
-          <include name="LG_01"/>
-          <include name="LG_02"/>
-          <include name="beforeTest"/>
+          <include name="FP_02"/>
+          <include name="before"/>
         </methods>
-      </class> <!-- TestNG.LG_test -->
+      </class> <!-- TestNG.FogetPassWord -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
