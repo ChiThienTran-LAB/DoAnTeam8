@@ -1,11 +1,11 @@
 package TestNG;
 
-import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners (TestNG.Listener.class)
 public class Register_test extends Astractclass {
 	@Test (priority = 5)
 	public static void RG02() {
@@ -43,7 +43,7 @@ public class Register_test extends Astractclass {
 	public static void RG01() {
 		WebElement cl_regis = driver.findElement(By.xpath("//a[@class=\"btn btn-link ajax-content\"]"));
 		cl_regis.click();
-		driver.findElement(By.xpath("//div[@class=\"controls\"]//child::span[1]")).click(); //sai chỗ này
+		driver.findElement(By.xpath("//form[@method='post']/child::div[6]//div[@class=\"controls\"]/label[1]/span[@class=\"checkmark\"]")).click(); //là nam
 		WebElement namsinh = driver.findElement(By.xpath("//input[@id=\"UserBirthDate\"]"));
 		namsinh.clear();
 		namsinh.sendKeys("07/07/1999");

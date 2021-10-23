@@ -1,14 +1,12 @@
 package TestNG;
 
-import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners (TestNG.Listener.class)
 public class Login_test extends Astractclass {
 	@Test (priority = 1)
 	public static void LG_01() //LG01 là login fail
